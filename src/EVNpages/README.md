@@ -1,0 +1,1 @@
+scss allows you to customize each page, component, so the css doesn't cross into other pages
