@@ -1,3 +1,5 @@
+// functionallaity over css aesthethics* 
+
 import { Link } from "react-router-dom";
 
 const ShopEvs = () => {
