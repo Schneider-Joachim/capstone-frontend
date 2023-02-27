@@ -1,6 +1,6 @@
 
 /* after you fix  navabar scss, delete these lines */
-.navbar-brand{
+#navbar-brand{
   margin-left: 8px;
 }
  
@@ -23,31 +23,7 @@ margin-left: 8px;
 .dropdown-menu {
 margin-left: 130px;
 position: absolute;
-}
-
-
-  /* after you fix  footer scss, delete these lines */
-
-/* #footer {
-  padding-top: 5px;
-  padding-left: 10px;
-  background-color: black;
-}
-
-p{
-  padding-top: 25px;
-}
-
-.noUnderline{
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.footer-row{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 5px;
-  } */
+} 
 
   /* after you fix  carosel scss, delete these lines */
 

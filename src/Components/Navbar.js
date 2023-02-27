@@ -1,5 +1,6 @@
 // Functional Component for NavBar
 import  { Link } from "react-router-dom";
+// import "../styling/Navbar.scss" styling not working
 
 const NavBar = () => {
      return(
@@ -7,7 +8,7 @@ const NavBar = () => {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span className="navbar-toggler-icon"></span>
         </button>
-            <Link className="navbar-brand" to="/">
+            <Link id="navbar-brand" to="/">
                 <img src="/IMG/EVNow-logo/cover.png" alt="EVNow logo" style={{height:"55px"}} className="d-inline-block align-text-top" />
             </Link>
             <div className="collapse navbar-collapse" id="navbarNav">

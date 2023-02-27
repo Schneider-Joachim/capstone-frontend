@@ -1,7 +1,5 @@
-import  { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import NavBar from "../Components/Navbar";
-import Carousel from "../Components/Carousel";
-import Cards from "../Components/Cards";
 import Footer from "../Components/Footer";
 
 
@@ -10,6 +8,7 @@ const Home = () => {
     return (
     <div>
         <NavBar/>
+        {/* need to fit within a container */}
         <div id="carouselFadedSlides" className="carousel slide carousel-fade" data-bs-ride="carousel">
         <div className="carousel-inner evphotos">
 
@@ -36,6 +35,7 @@ const Home = () => {
 
         </div> 
     </div>
+    {/* carousel end */}
     <div className="container-sm">
     <div className="row g-3">
         <div className="col-12 col-md-6 col-lg-4">
@@ -44,18 +44,18 @@ const Home = () => {
                 <div className="card-body">
                     <h5 className="card-title">EV Benefits</h5>
                     <p className="card-text">What are the benefits to owning an EV?</p>
-                    <a href="#" className="btn btn-primary">Learn</a>
+                    <Link to="/EVBenefits" className="btn btn-primary">Learn</Link>
                 </div>
             </div>
         </div>
     
     <div className="col-12 col-md-6 col-lg-4">
         <div className="card">
-            <img src="src/IMG/img/chargers.jpeg" className="card-img-top"  alt="PLACEHOLDER IMG"/>
+            <img src="/IMG/img/chargers.jpeg" className="card-img-top"  alt="PLACEHOLDER IMG"/>
             <div className="card-body">
                 <h5 className="card-title">Charging</h5>
                 <p className="card-text">What should I know about charging my vehicle?</p>
-                <a href="#" className="btn btn-primary">Learn</a>
+                <Link to="/Charging" className="btn btn-primary">Learn</Link> 
             </div>
         </div>
     </div>
@@ -66,13 +66,13 @@ const Home = () => {
             <div className="card-body">
                 <h5 className="card-title">Terms</h5>
                 <p className="card-text">Terms and Vocabulary to help you get a deeper understanding of the EV World</p>
-                <a href="#" className="btn btn-primary">Learn</a>
+                <Link to="/Terms"className="btn btn-primary">Learn</Link>
             </div>
         </div>
     </div> 
 </div>
     </div>
-        {/* <Footer/> */}
+        <Footer/>
     </div>
     );
 };

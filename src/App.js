@@ -9,6 +9,7 @@ import ShopEvs from "./EVNpages/ShopEvs";
 import News from "./EVNpages/News";
 import AboutUs from "./EVNpages/AboutUs";
 import Contact from './EVNpages/Contact';
+import NavFootPage from './Components/NavFootPages';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       {/* paths to the actual pages end user would see */}
   <BrowserRouter>
   <Routes>
+    {/* <Route path="/" element={<NavFootPage/>}/> */}
     <Route path="/" element={<Home/>}/>
     <Route path="/EVBenefits" element={<EVBenefits/>}/>
     <Route path="/Terms" element={<Terms/>}/>
