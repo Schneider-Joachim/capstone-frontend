@@ -1,6 +1,6 @@
 // Functional Component for Footer
 import  { Link } from "react-router-dom";
-import "../styling/Footer.scss"
+import "../styling/Footer.scss";
 
 const Footer = () => {
     return (
