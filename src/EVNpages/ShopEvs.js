@@ -1,7 +1,6 @@
 // functionallaity over css aesthethics* 
 import { Link } from "react-router-dom";
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const ShopEvs = () => {
 

@@ -22,7 +22,7 @@ const News = () => {
 
             for (const article of newsInfo.articles){
                 generatedHTML += `
-                <img src="${article.urlToImage}"/>
+                <img src="${article.urlToImage} style={{maxWidth: 200}}"/>
                 <p>Article title: ${article.title}</p>
                 <p>Author:${article.author}</p>
                 <p>Description:${article.description}</p>
