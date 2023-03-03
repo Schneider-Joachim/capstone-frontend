@@ -9,7 +9,7 @@ import ShopEvs from "./EVNpages/ShopEvs";
 import News from "./EVNpages/News";
 import AboutUs from "./EVNpages/AboutUs";
 import Contact from './EVNpages/Contact';
-import NavFootPage from './Components/NavFootPages';
+// import NavFootPage from './Components/NavFootPages';
 
 function App() {
   return (
@@ -33,3 +33,5 @@ function App() {
 }
 
 export default App;
+
+// API call so front n back can connect Evncapstone-env.eba-2tvimhmy.us-east-1.elasticbeanstalk.com 
