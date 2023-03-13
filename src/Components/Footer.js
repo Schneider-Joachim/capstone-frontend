@@ -11,16 +11,16 @@ const Footer = () => {
       <div className="container-xl">
         <div className="row">
           <div className="col-3">
-            <h5 className="text-light">Learn</h5>
+            <h5 className="text-light">Learn </h5>
             <p>
-              <Link to="/EVBenefits" className="noUnderline">
-                EV Benefits
+              <Link to="/Terms" className=" col-3 noUnderline">
+                Terms
               </Link>
             </p>
 
-            <p>
-              <Link to="/Terms" className="noUnderline">
-                Terms
+            {/* <p>
+              <Link to="/EVBenefits" className="noUnderline">
+                EV Benefits
               </Link>
             </p>
 
@@ -28,8 +28,9 @@ const Footer = () => {
               <Link to="/Charging" className="noUnderline">
                 Charging
               </Link>
-            </p>
+            </p> */}
           </div>
+
           <div className="col-3">
             <Link to="ShopEVs" className="text-light noUnderline">
               <h5>Shop EV's</h5>

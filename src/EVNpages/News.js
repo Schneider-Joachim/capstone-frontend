@@ -11,7 +11,7 @@ const News = () => {
   useEffect(() => {
     const newsAPICall = async () => {
       const newsResponse = await fetch(
-        "https://newsapi.org/v2/everything?q=EV&apiKey=131adade018f40268123090acbdd829c"
+        "https://newsapi.org/v2/everything?q=electricvehicles&apiKey=131adade018f40268123090acbdd829c&language=en"
       );
       // created variable to see apicall data in console
       const newsInfo = await newsResponse.json();

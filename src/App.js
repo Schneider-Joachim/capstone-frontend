@@ -8,7 +8,6 @@ import Charging from "./EVNpages/Charging";
 import ShopEvs from "./EVNpages/ShopEvs";
 import News from "./EVNpages/News";
 import AboutUs from "./EVNpages/AboutUs";
-import Contact from "./EVNpages/Contact";
 import NavFootPage from "./Components/NavFootPages";
 
 function App() {
@@ -25,7 +24,6 @@ function App() {
             <Route path="/ShopEvs" element={<ShopEvs />} />
             <Route path="/News" element={<News />} />
             <Route path="/AboutUs" element={<AboutUs />} />
-            <Route path="/Contact" element={Contact} />
           </Route>
         </Routes>
       </BrowserRouter>

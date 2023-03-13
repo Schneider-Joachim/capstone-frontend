@@ -34,20 +34,20 @@ const NavBar = () => {
             </a>
             <ul className="dropdown-menu">
               <li>
-                <Link className="nav-tabs dropdown-item" to="/EVBenefits">
-                  EV Benefits
-                </Link>
-              </li>
-              <li>
                 <Link className="nav-tabs dropdown-item" to="/Terms">
                   Terms
+                </Link>
+              </li>
+              {/* <li>
+                <Link className="nav-tabs dropdown-item" to="/EVBenefits">
+                  EV Benefits
                 </Link>
               </li>
               <li>
                 <Link className="dropdown-item" to="/Charging">
                   Charging
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li className="nav-item col-3">

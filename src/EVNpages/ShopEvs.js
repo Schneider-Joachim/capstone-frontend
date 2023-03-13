@@ -9,12 +9,12 @@ const ShopEvs = () => {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
-    const wrapper = async () => {
+    const testRun = async () => {
       const response = await fetch("http://localhost:3001/cars");
       const apiResponse = await response.json();
       setCars(apiResponse.cars);
     };
-    wrapper();
+    testRun();
   });
 
   // const cars = [
