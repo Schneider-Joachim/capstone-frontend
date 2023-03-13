@@ -66,7 +66,7 @@ const ShopEvs = () => {
       </select>
 
       <table>
-        <thead>
+        <thead id="EVinfo">
           <tr>
             <th>Make</th>
             <th>Model</th>
