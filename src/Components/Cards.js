@@ -1,21 +1,21 @@
 import { Link } from "react-router-dom";
-
+import "../styling/Cards.scss";
 const Cards = (props) => {
   return (
-    <div className="row">
-      <div className="card">
-        <img
-          src="/IMG/img/modelY.jpeg"
-          className="card-img-top"
-          alt="PLACEHOLDER IMG"
-        />
-        <div className="card-body">
-          <h5 className="card-title">{props.title}</h5>
+    <div className="card id=carcard">
+      <img
+        src="/IMG/img/modelY.jpeg"
+        className="card-img-top"
+        alt="PLACEHOLDER IMG"
+      />
+      <div className="card-body justify-content-center">
+        <h5 className="card-title">
+          {/* {props.title} */}
           <p className="card-text">{props.text}</p>
-          <Link to="/Terms" className="btn btn-primary">
+          <Link to="/Terms" className="btn btn-primary btn-lg">
             Learn
           </Link>
-        </div>
+        </h5>
       </div>
     </div>
 

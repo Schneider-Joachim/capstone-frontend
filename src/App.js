@@ -12,7 +12,7 @@ import NavFootPage from "./Components/NavFootPages";
 
 function App() {
   return (
-    <div className="App container-xl">
+    <div className="App">
       {/* paths to the actual pages end user would see */}
       <BrowserRouter>
         <Routes>

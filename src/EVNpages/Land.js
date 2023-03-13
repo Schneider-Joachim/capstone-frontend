@@ -47,7 +47,7 @@ const Home = () => {
         </div>
       </div>
       {/* carousel end */}
-      <div className="row">
+      <div>
         <Cards
           text="Terms and Vocabulary to help you get a deeper understanding of
                  the EV World"
